@@ -1,0 +1,46 @@
+/* App.css */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 25%;
+  height: 100vh;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.add {
+  background-color: #007bff;
+  color: white;
+}
+
+button.get {
+  background-color: #28a745;
+  color: white;
+}
+
+button.getAll {
+  background-color: #ffc107;
+  color: black;
+}
